@@ -2,14 +2,14 @@ import styled from "@emotion/styled";
 
 const user = {
     name: 'Hedy Lamarr',
-    imageUrl: 'https://i.imgur.com/yXOvdOSs.jpg',
+    imageUrl: 'https://i.imgur.com/yXOvdOSs1.jpg',
     imageSize: 90
 }
 
 const Profile = () => {
     return (
         <>
-            <h1>Hedy Lamarr</h1>
+            <h1>Donut</h1>
             <Img
                 className="avatar"
                 src={user.imageUrl}
